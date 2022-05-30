@@ -22,3 +22,6 @@ For example, herein the filter values for only 'City' ('benton') and 'Shape' ('c
 
 ![Search results by 'Shape' only]()
 
+## Summary:
+This webpage is quite user-friendly to begin with. The layout, colors, and concisely laid out information all add to that user-friendly experience. However, the webpage has really dark-inked placeholder values in each of the filter search boxes. The placeholder values are: '1/10/2010', 'uxbridge', 'ma', 'us', and 'sphere'. The dark-colored placeholder values can be made way lighter (or done away with altogether). Alternatively, a small text can explain that these are only placeholder values and the user needs to enter some filter value to make the search specific to their purposes. It would also help if we can explain somewhere that in order to see All the results that were visible on the webpage initially, the user must erase the value they have entered in a filter box and also press 'Enter' to go back and view all the data values. Alternatively, and better still, we cna instead add one button that reads 'Filter Search' and another that reads 'Clear Search' to deal with this issue. 
+
