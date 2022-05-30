@@ -15,3 +15,10 @@ The webpage then offers the user to decide for themselves if they wish to explor
 
 The search results then show the data rows that fit with those filter values entered by the user. The results also include 'Duration' of sighting as well as any 'Comments' left by the observer.
 It is not necessary for the user to enter a value in all the five filter options, as is illustrated below.
+
+![Search results by 'City' and 'Shape']()
+
+For example, herein the filter values for only 'City' ('benton') and 'Shape' ('circle') were added, whereas in the one below the 'user' searched by only the 'Shape' filter, i.e. 'triangle'. It yields all search results that have a 'triangle' shaped object sighted therein. 
+
+![Search results by 'Shape' only]()
+
