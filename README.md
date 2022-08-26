@@ -7,7 +7,7 @@ The purpose of this analysis was to be able to present results for UFO sightings
 The data about the UFO sightings can be filtered by date, city, state, country, and shape of the UFO ship or object sighted. The results are presented in a tabular form that is dynamic, and the filtering process has been made as user-friendly as possible.
 
 ### About the Dataset:
-Data used is stored in a JavaScript array in the file [](https://github.com/SohaT7/UFOs/blob/main/static/js/data.js).
+Data used is stored in a JavaScript array in the file [data.js](https://github.com/SohaT7/UFOs/blob/main/static/js/data.js).
 
 ### Tools Used:
 JavaScript
