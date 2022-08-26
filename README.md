@@ -10,11 +10,11 @@ The data about the UFO sightings can be filtered by date, city, state, country, 
 Data used is stored in a JavaScript array in the file [data.js](https://github.com/SohaT7/UFOs/blob/main/static/js/data.js).
 
 ### Tools Used:
-JavaScript
+JavaScript <br />
 
-HTML
+HTML <br />
 
-CSS
+CSS <br />
 
 Bootstrap
 
