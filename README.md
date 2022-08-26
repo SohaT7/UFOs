@@ -1,8 +1,24 @@
 # UFO Analysis
-## Overview of Project:
-The purpose of this analysis was to be able to present results for UFO sightings filtered by date, city, state, country, and shape of the UFO ship or object sighted. The results are presented in a tabular form, and the filtering process has been made user-friendly as much as possible.
+## Overview of the Analysis
+### Purpose:
+The purpose of this analysis was to be able to present results for UFO sightings and allow the users to filter through the data for multiple criteria simultaneously.
 
-## Results:
+### Description:
+The data about the UFO sightings can be filtered by date, city, state, country, and shape of the UFO ship or object sighted. The results are presented in a tabular form that is dynamic, and the filtering process has been made as user-friendly as possible.
+
+### About the Dataset:
+Data used is stored in a JavaScript array in the file [](https://github.com/SohaT7/UFOs/blob/main/static/js/data.js).
+
+### Tools Used:
+JavaScript
+
+HTML
+
+CSS
+
+Bootstrap
+
+## Results
 
 ![Webpage](https://github.com/SohaT7/UFOs/blob/main/static/images/webpage_1.png)
 
@@ -29,6 +45,12 @@ For example, herein the filter values for only 'City' ('benton') and 'Shape' ('c
 
 ![Search results by 'Shape' only](https://github.com/SohaT7/UFOs/blob/main/static/images/shape.png)
 
-## Summary:
+## Summary
 This webpage is quite user-friendly to begin with. The layout, colors, and concisely laid out information all add to that user-friendly experience. However, the webpage has really dark-inked placeholder values in each of the filter search boxes. The placeholder values are: '1/10/2010', 'uxbridge', 'ma', 'us', and 'sphere'. The dark-colored placeholder values can be made way lighter (or done away with altogether). Alternatively, a small text can explain that these are only placeholder values and the user needs to enter some filter value to make the search specific to their purposes. It would also help if we can explain somewhere that in order to see All the results that were visible on the webpage initially, the user must erase the value they have entered in a filter box and also press 'Enter' to go back and view all the data values. Alternatively, and better still, we cna instead add one button that reads 'Filter Search' and another that reads 'Clear Search' to deal with this issue. 
+
+### Link to site:
+https://sohat7.github.io/UFOs/
+
+## Contact Information
+Email: st.sohatariq@gmail.com
 
