@@ -26,7 +26,7 @@ The dataset comprises of a JavaScript array stored in the [data.js file](https:/
 ### Description:
 Using JavaScript and HTML, the results are presented in a dynamic tabular form, where the user can filter UFO sightings on multiple criteria (date, city, state, country, and shape of the UFO ship or object sighted). CSS customizations are added to make the page into a more aesthetic one. 
 
-The file [index.html](https://github.com/SohaT7/UFOs/blob/main/index.html) shows how the filtering process is carried out. A function updateFilters() saves the element, value, and id of the filter that was changed. Another function filterTable() then loops through the dataset and keeps only the results that match the search criteria. When 'Enter' is pressed, the webpage is updated with the new search results. 
+The file [app.js](https://github.com/SohaT7/UFOs/blob/main/static/js/app.js) shows how the filtering process is carried out. A function updateFilters() saves the element, value, and id of the filter that was changed. Another function filterTable() then loops through the dataset and keeps only the results that match the search criteria. When 'Enter' is pressed, the webpage is updated with the new search results. 
 
 The file structure for this project is as such:
  - [index.html file](https://github.com/SohaT7/UFOs/blob/main/index.html)
