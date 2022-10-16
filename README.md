@@ -1,54 +1,72 @@
 # UFO Analysis
+## Table of Contents
+- [Overview of the Analysis](#overview-of-the-analysis)
+    - [Purpose](#purpose)
+    - [About the Dataset](#about-the-dataset)
+    - [Tools Used](#tools-used)
+    - [Description](#description)
+- [Results](#results)
+- [Summary](#summary)
+- [Link to the Site](#Link-to-the-Site)
+- [Contact Information](#contact-information)
+
 ## Overview of the Analysis
 ### Purpose:
-The purpose of this analysis was to be able to present results for UFO sightings and allow the users to filter through the data for multiple criteria simultaneously.
-
-### Description:
-The data about the UFO sightings can be filtered by date, city, state, country, and shape of the UFO ship or object sighted. The results are presented in a tabular form that is dynamic, and the filtering process has been made as user-friendly as possible.
+This project aims to create a dynamic table containing data on UFO sightings, where the user can visualize the data by selecting multiple criteria simultaneously.
 
 ### About the Dataset:
-Data used is stored in a JavaScript array in the file [data.js](https://github.com/SohaT7/UFOs/blob/main/static/js/data.js).
+The dataset comprises of a JavaScript array stored in the [data.js file](https://github.com/SohaT7/UFOs/blob/main/static/js/data.js).
 
 ### Tools Used:
-JavaScript
+ - JavaScript ES6+
+ - HTML
+ - CSS
+ - Bootstrap
 
-HTML
+### Description:
+Using JavaScript and HTML, the results are presented in a dynamic tabular form, where the user can filter UFO sightings on multiple criteria (date, city, state, country, and shape of the UFO ship or object sighted). CSS customizations are added to make the page into a more aesthetic one. 
 
-CSS
+The file [index.html](https://github.com/SohaT7/UFOs/blob/main/index.html) shows how the filtering process is carried out. A function updateFilters() saves the element, value, and id of the filter that was changed. Another function filterTable() then loops through the dataset and keeps only the results that match the search criteria. When 'Enter' is pressed, the webpage is updated with the new search results. 
 
-Bootstrap
+The file structure for this project is as such:
+ - [index.html file](https://github.com/SohaT7/UFOs/blob/main/index.html)
+ - [static folder](https://github.com/SohaT7/UFOs/tree/main/static)
+    - [css folder](https://github.com/SohaT7/UFOs/tree/main/static/css): [style.css file](https://github.com/SohaT7/UFOs/blob/main/static/css/style.css)
+    - [js folder](https://github.com/SohaT7/UFOs/tree/main/static/js): [app.js file](https://github.com/SohaT7/UFOs/blob/main/static/js/app.js)
 
 ## Results
 
 ![Webpage](https://github.com/SohaT7/UFOs/blob/main/static/images/webpage_1.png)
 
-Our webpage contains a paragraph explaining how humans might not be alone in the universe, followed by a description of different viewpoints held in the UFO community: i.e. explore through the data to learn more about aliens versus those that ask for them to be left alone until they themselves wish to be found out.
+The top of the webpage contains some engaging information regarding UFO sightings and the different beliefs regarding UFO sightings in the UFO community.
 
 The webpage then offers the user to decide for themselves if they wish to explore through the data of UFO sightings and if so, it offers them a user-friendly way to search through the data. 
 
 ![Filter Options](https://github.com/SohaT7/UFOs/blob/main/static/images/webpage_2.png)
 
-The filters which they can apply to their search have been listed on the left-hand side of the webpage, and are as follows:
-
+The filters-pane is situated to the left of the web page, and this is where the users can select multiple criteria (given below) to sift through the data:
 - Date
 - City
 - State
 - Country
 - Shape
 
-The search results then show the data rows that fit with those filter values entered by the user. The results also include 'Duration' of sighting as well as any 'Comments' left by the observer.
-It is not necessary for the user to enter a value in all the five filter options, as is illustrated below.
+Upon pressing 'Enter', the search results are returned to the user. The search results are in accordance to the criteria that were selected by the user. The results also include 'Duration' of sighting as well as any 'Comments' left by the observer.
+
+It is not necessary for the user to enter a value in all the five filter options, as is illustrated below:
 
 ![Search results by 'City' and 'Shape'](https://github.com/SohaT7/UFOs/blob/main/static/images/city_shape.png)
 
-For example, herein the filter values for only 'City' ('benton') and 'Shape' ('circle') were added, whereas in the one below the 'user' searched by only the 'Shape' filter, i.e. 'triangle'. It yields all search results that have a 'triangle' shaped object sighted therein. 
+For example, herein the filter values for only 'City' ('benton') and 'Shape' ('circle') were added, whereas in the one below, the user searched by only the 'Shape' filter, i.e. 'triangle'. It yields all search results that have a 'triangle' shaped object sighted therein: 
 
 ![Search results by 'Shape' only](https://github.com/SohaT7/UFOs/blob/main/static/images/shape.png)
 
 ## Summary
-This webpage is quite user-friendly to begin with. The layout, colors, and concisely laid out information all add to that user-friendly experience. However, the webpage has really dark-inked placeholder values in each of the filter search boxes. The placeholder values are: '1/10/2010', 'uxbridge', 'ma', 'us', and 'sphere'. The dark-colored placeholder values can be made way lighter (or done away with altogether). Alternatively, a small text can explain that these are only placeholder values and the user needs to enter some filter value to make the search specific to their purposes. It would also help if we can explain somewhere that in order to see All the results that were visible on the webpage initially, the user must erase the value they have entered in a filter box and also press 'Enter' to go back and view all the data values. Alternatively, and better still, we cna instead add one button that reads 'Filter Search' and another that reads 'Clear Search' to deal with this issue. 
+This webpage allows the user to sift through the UFO sightings data based on the specific criteria they select. The webpage is quite user-friendly to begin with. The information is nicely laid out, and the filter searches pane is nealty situated to the left of the page. The filter search elements have placeholders that show the user exactly what format to enter the words or dates in. 
 
-### Link to site:
+However, if we were to improve upon this, we could enable the filter search elements to not be case-sensitive (by allowing upper case as well). As of now, they only take in lower case values, for example 'ca', but not 'CA' or 'Ca'. The date filter search element only takes in a date with the format '1/01/2010' and not '1/1/2010'. The date filter element can be modified to accommodate for that. To make it even more user-friendly and efficient, we can have separate search boxes for the 'day', 'month', and 'year' value. Moreover, adding a button for 'Filter Search' and one for 'Clear Search' can help navigating in between searches much easier.
+
+## Link to the Site
 https://sohat7.github.io/UFOs/
 
 ## Contact Information
